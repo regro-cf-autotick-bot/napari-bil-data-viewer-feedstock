@@ -1,5 +1,5 @@
 {% set name = "napari-bil-data-viewer" %}
-{% set version = "0.1.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-bil-data-viewer-{{ version }}.tar.gz
-  sha256: 12bd24b1a2e0452f881f664c4a3c6e4c09ebf59e99f7f2006fa8673d1c099485
+  sha256: 5ae358dcc1d75d125ad9813c420988de5e546c6c4d01e2969a72a56876da568f
 
 build:
   noarch: python
