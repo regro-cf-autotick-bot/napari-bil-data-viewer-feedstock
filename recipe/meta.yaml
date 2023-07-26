@@ -25,9 +25,12 @@ requirements:
     - dask-core
     - fsspec
     - imagecodecs
+    - magicgui
     - napari
     - napari-plugin-engine >=0.1.4
+    - neurom >=3.2.2
     - python >=3.8
+    - qtpy
     - requests
     - scikit-image
 
@@ -39,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - pyqt
 
 about:
   home: https://github.com/brain-image-library/napari-bil-data-viewer
